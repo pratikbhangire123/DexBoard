@@ -141,7 +141,7 @@ function MobileMenu(props) {
                 <button onClick={() => setShowMenu(!showMenu)} className={styles.mobileMenuButton}>
                     {
                         showMenu ?
-                        <svg viewBox="0 0 50 50" width="12" height="20" overflow='visible' stroke='#222831' stroke-width='10' stroke-linecap='round'>
+                        <svg viewBox="0 0 50 50" width="12" height="20" overflow='visible' stroke='#222831' strokeWidth='10' strokeLinecap='round'>
                             <line x2='50' y2='50' />
                             <line x1='50' y2='50' />
                         </svg> :
