@@ -1,0 +1,772 @@
+.container {
+  padding: 0 2rem;
+}
+
+
+/* Navbar CSS */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  background-color: #222831;
+  color: #EEEEEE;
+  border-bottom: 3px solid rgba(17, 20, 24, 0.2);
+}
+
+.navbarLeft {
+  display: flex;
+}
+
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+
+.navbarRight>select {
+  padding: 0.5rem 0.3rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: bold;
+  color: #EEEEEE;
+  background-color: #171c22;
+  cursor: pointer;
+}
+
+.navbarRight>select:hover {
+  color: #bebebe;
+  background-color: #1e232b;
+}
+
+.navbarMenu {
+  display: flex;
+  margin: 0 2rem;
+  color: #bebebe;
+}
+
+.navbarMenuItem {
+  margin: 0 0.7rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbarMenuItem:hover {
+  color: #fefefe;
+}
+
+.navBarMenuItemActive {
+  margin: 0 0.7rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 16px;
+  border-radius: 12px;
+  color: #fefefe;
+  background-color: rgba(190, 190, 190, 0.2);
+}
+
+
+/* Main CSS */
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 5rem 5rem;
+  justify-content: flex-start;
+  background-color: #393E46;
+}
+
+
+/* Home CSS */
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+  background-color: #222831;
+  color: #EEEEEE;
+  box-shadow: 0 5px #EEEEEE;
+  border-radius: 15px;
+}
+
+.home > div:first-of-type {
+  width: 150px;
+}
+
+.home > h1 {
+  margin: 0px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 5px black;
+}
+
+.home > p {
+  margin: 0px;
+  color: #bebebe;
+  text-align: center;
+}
+
+.home > button {
+  padding: 0.5rem;
+  margin-top: 2rem;
+  background-color: #00ADB5;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home > button:hover {
+  background-color: #38f5ff;
+}
+
+.home > button:focus {
+  background-color: #00666b;
+  box-shadow: 0 1px;
+}
+
+
+/* Health Section CSS */
+
+
+.healthSection {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222831;
+  color: #fefefe;
+  border-radius: 15px;
+}
+
+.healthItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.healthItem>div:first-of-type {
+  color: #bebebe;
+  font-size: 12px;
+}
+
+
+/* Chart Section CSS */
+
+
+.chartSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: #222831;
+  border-radius: 15px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.chartInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.chartInfo>div {
+  margin-right: auto;
+  color: #bebebe;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.daysButton {
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  color: #222831;
+  background-color: rgba(190, 190, 190, 0.7);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.daysButton:hover {
+  background-color: #bebebe;
+}
+
+.daysButtonActive {
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  color: #222831;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chartInfo>div>p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(195, 197, 203);
+}
+
+
+/* Other Data Section CSS */
+
+
+.otherDataSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.otherData {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 31%;
+  background-color: #222831;
+  border-radius: 15px;
+}
+
+.otherDataTitle {
+  margin-bottom: 5px;
+  color: #bebebe;
+}
+
+.otherDataValue {
+  color: #fefefe;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/* Table CSS */
+
+
+.table {
+  display: grid;
+  grid-auto-rows: auto;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 100%;
+  background-color: #222831;
+}
+
+.tableHead {
+  display: grid;
+  gap: 1em;
+  padding: 20px;
+  align-items: center;
+  text-align: left;
+  grid-template-columns: 20px 3fr repeat(4, 1fr);
+  box-sizing: border-box;
+  border-bottom: 1px solid #393E46;
+  color: #bebebe;
+  cursor: pointer;
+}
+
+.tableHead > th {
+  display: flex;
+}
+
+.tableHead > th > div {
+  margin-left: 0.3rem;
+}
+
+.tableRow {
+  display: grid;
+  gap: 1em;
+  padding: 20px;
+  -webkit-box-align: center;
+  align-items: center;
+  grid-template-columns: 20px 3fr repeat(4, 1fr);
+  box-sizing: border-box;
+  border-bottom: 1px solid #393E46;
+  color: #fefefe;
+}
+
+.tableFoot {
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #bebebe;
+}
+
+
+/* Pagination CSS */
+
+
+.paginationButton {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #222831;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationButton:hover {
+  background-color: rgba(238, 238, 238, 0.5)
+}
+
+.paginationButton:active {
+  background-color: #00ADB5;
+}
+
+.paginationButtonLimit {
+  margin-right: 0.5rem 1rem;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #222831;
+  background-color: rgba(238, 238, 238, 0);
+  border-radius: 5px;
+}
+
+
+/* Token Explorer Page Navigation CSS */
+
+
+.tokenExplorerNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Token Explorer Page Header CSS */
+
+
+.tokenExplorerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #222831;
+  border-radius: 15px;
+}
+
+.tokenExplorerHeaderLeft>div:first-of-type {
+  color: #bebebe;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tokenExplorerHeaderLeft>div {
+  color: #fefefe;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.tokenExplorerHeaderRight>div {
+  display: flex;
+}
+
+.tokenExplorerHeaderRight>div>div:first-of-type {
+  color: #bebebe;
+}
+
+.tokenExplorerHeaderRight>div>div {
+  color: #fefefe;
+}
+
+.tokenExplorerHeaderRight>div>div>svg {
+  cursor: pointer;
+}
+
+
+/* Token Explorer Page Body CSS */
+
+
+.tokenExplorerBody {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.tokenExplorerBodyLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #222831;
+}
+
+.tokenExplorerBodyLeftItem {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 5px;
+  box-sizing: border-box;
+}
+
+.tokenExplorerBodyLeftItem>div:first-of-type {
+  color: #bebebe;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tokenExplorerBodyLeftItem>div {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+/* Token Explorer Page Footer CSS */
+
+
+.tokenExplorerFooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.tokenExplorerTableTransaction {
+  color: #00ADB5;
+}
+
+.tokenExplorerTableLink {
+  cursor: 'pointer';
+  color: #00ADB5;
+  text-decoration-line: underline
+}
+
+.tokenExplorerTableLink:hover,
+.tokenExplorerTableLink:visited {
+  color: #FF2E63;
+}
+
+
+/* Footer CSS */
+
+
+.footer {
+  display: flex;
+  padding: 1rem;
+  border-top: 3px solid rgba(17, 20, 24, 0.2);
+  min-height: 6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+}
+
+.footerPoweredBy {
+  display: flex;
+  padding: 0.4rem;
+  font-size: 12px;
+  align-items: center;
+  color: #222831;
+  background-color: #bebebe;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footerPoweredBy>div {
+  width: 80px;
+  height: 20px;
+}
+
+
+/* Loader CSS */
+
+
+.skeleton {
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 100%;
+  background-color: #222831;
+}
+
+.loaderCenter {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 0.7rem;
+  height: 1rem;
+  margin: 0.3rem;
+  background-color: #00ADB5;
+  animation: wave 0.7s linear infinite;
+  border-radius: 20px;
+}
+
+.loader:nth-child(2) {
+  animation-delay: 0.1s;
+  height: 2rem;
+}
+
+.loader:nth-child(3) {
+  animation-delay: 0.2s;
+  height: 3rem;
+  background-color: #FF2E63;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.failToLoad {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.failToLoad>p {
+  margin: 0;
+  color: #EEEEEE;
+}
+
+
+/* Title & Logo CSS */
+
+
+.title {
+  margin-bottom: 2rem;
+  color: #EEEEEE;
+}
+
+.logo {
+  width: 120px;
+  margin-left: 0.5rem;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+  /* Navbar CSS */
+
+
+  .navbar {
+    padding: 2rem 2rem;
+  }
+  
+  .navbarRight>select {
+    padding: 0.3rem 0rem;
+  }
+  
+  .navbarMenu {
+    margin: 0 1rem;
+  }
+  
+  .navbarMenuItem {
+    margin: 0.2rem 0.1rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+  }
+
+  .navBarMenuItemActive {
+    margin: 0.2rem 0.1rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+  }
+
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: absolute;
+    right: 5%;
+    color: #EEEEEE;
+    background-color: #222831;
+    border-radius: 15px;
+  }
+
+  .mobileMenuButton {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  /* Main CSS */
+
+
+  .main {
+    padding: 2rem 2rem;
+  }
+
+
+  /* Home CSS */
+
+
+  .home {
+    padding: 1.5rem;
+  }
+
+  .home > div:first-of-type {
+    width: 120px;
+  }
+
+  .home > h1 {
+    margin: 0px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 5px black;
+    font-size: x-large;
+  }
+
+
+  /* Health Section CSS */
+
+
+  .healthSection {
+    flex-direction: column;
+  }
+
+  .healthItem {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .healthItem>div:first-of-type {
+    font-size: 10px;
+  }
+
+  .healthItem>div {
+    font-size: 15px;
+  }
+
+
+  /* Chart Section CSS */
+
+
+  .chartSection {
+    flex-direction: column;
+  }
+
+  .chart {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .chartInfo>div {
+    font-size: 17px;
+  }
+
+  .daysButton {
+    font-size: 10px;
+  }
+
+  .daysButtonActive {
+    font-size: 10px;
+  }
+
+
+  /* Other Data Section CSS */
+
+
+  .otherData {
+    width: 29%;
+  }
+
+  .otherDataTitle {
+    font-size: 12px;
+  }
+
+  .otherDataValue {
+    font-size: 20px;
+  }
+
+
+  /* Table CSS */
+
+
+  .tableHead {
+    grid-template-columns: 20px 3fr repeat(2, 1fr);
+  }
+
+  .tableRow {
+    grid-template-columns: 20px 3fr repeat(2, 1fr);
+  }
+
+
+  /* Token Explorer Page Header CSS */
+
+  
+  .tokenExplorerHeaderLeft>div:first-of-type {
+    font-size: 15px;
+  }
+  
+  .tokenExplorerHeaderLeft>div {
+    font-size: 30px;
+  }
+  
+  .tokenExplorerHeaderRight>div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tokenExplorerHeaderRight>div>div:first-of-type {
+    font-size: 10px;
+  }
+  
+  .tokenExplorerHeaderRight>div>div {
+    font-size: 15px;
+  }
+  
+
+  /* Token Explorer Page Body CSS */
+
+
+.tokenExplorerBody {
+  flex-direction: column;
+}
+
+.tokenExplorerBodyLeft {
+  flex-direction: row;
+}
+
+.tokenExplorerBodyLeftItem>div:first-of-type {
+  font-size: 12px;
+}
+
+.tokenExplorerBodyLeftItem>div {
+  font-size: 20px;
+}
+
+
+/* Title CSS */
+
+
+.title {
+  font-size: 15px;
+}
+
+
+}
