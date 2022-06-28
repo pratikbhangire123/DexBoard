@@ -235,7 +235,7 @@ function TokenExplorerFooter(props) {
 
 
     const [pageNumber, setPageNumber] = useState(0)
-    const [desktop, setDesktop] = useState(window.innerWidth > 600)
+    const [desktop, setDesktop] = useState(globalThis.innerWidth > 600)
 
     const { transactionsData, isTransactionsLoading, isTransactionsError } = getTokenTransactions(state, tokenAddress, pageNumber)
 
