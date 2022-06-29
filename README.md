@@ -5,6 +5,10 @@ A project built for GR14: Web3 Application General Purpose Bounty (Covalent) Hac
 
 Live at- https://dex-board.vercel.app/
 
+Project Presentation- https://bit.ly/3noETsv
+
+Project Demo- https://youtu.be/HKwbYD1SgBU
+
 
 Purpose
 -------
@@ -65,3 +69,8 @@ Results
 3. Pools Page for Pools Related Data
 4. Tokens Page for Token Related Data
 5. Token Explorer Page for Analyzing Token in More Detail
+
+
+Contact
+-------
+Email- prabhangire7633@gmail.com
