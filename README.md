@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+DexBoard - A Multi-DEX Analytics Dashboard
 
-## Getting Started
 
-First, run the development server:
+A project built for GR14: Web3 Application General Purpose Bounty (Covalent) Hackathon.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Live at- https://dex-board.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Purpose
+-------
+To serve the builders, investors, traders, analyzers, and others by giving them interesting insights like the price of the same token on different DEXes, their volume, transactions, etc. to help them take informed decisions.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Goal
+----
+To assemble the interesting and important data points from the multiple DEXes in a single window. 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Tech Stack
+----------
+Tools-
+Covalent API
+Next.js/ReactJS
+Chart.js
+VS Code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Programming Languages-
+JavaScript
+CSS
+HTML
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Covalent API
+------------
 
-## Deploy on Vercel
+The soul of this project is Data. And hence it is very important to have a fast, secure, reliable, and easy-to-use tool to provide on-chain data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+And, Covalent API's endpoints does this job perfectly by making data fetching the easiest task of this entire project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I have used the Covalent's Class B (XY = K) and Pricing endpoints such as,
+
+DEX Health & Ecosystem Data
+Pools & Tokens
+Token Transactions
+Historical Token Prices
+
+Next.js/ReactJS
+---------------
+
+It's not just about having the data, it is also about how to access and represent it.
+
+And, that's why I choose Next.js to leverage its automatic Routing, In-built-CSS, Optimized Components, and other great features.
+
+Chart.js
+--------
+
+Building a dashboard needs to have some awesome charts to represent the data visually.
+
+And, I used a simple, lightweight, and flexible JavaScript library called Chart.js to create awesome charts in my project.   
+
+
+Results
+-------
+Include DEXes on Ethereum Blockchain
+Overview Page for Ecosystem Data
+Pools Page for Pools Related Data
+Tokens Page for Token Related Data
+Token Explorer Page for Analyzing Token in More Detail
