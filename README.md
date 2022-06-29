@@ -60,8 +60,8 @@ And, I used a simple, lightweight, and flexible JavaScript library called Chart.
 
 Results
 -------
-Include DEXes on Ethereum Blockchain
-Overview Page for Ecosystem Data
-Pools Page for Pools Related Data
-Tokens Page for Token Related Data
-Token Explorer Page for Analyzing Token in More Detail
+1. Include DEXes on Ethereum Blockchain
+2. Overview Page for Ecosystem Data
+3. Pools Page for Pools Related Data
+4. Tokens Page for Token Related Data
+5. Token Explorer Page for Analyzing Token in More Detail
