@@ -23,15 +23,15 @@ To assemble the interesting and important data points from the multiple DEXes in
 Tech Stack
 ----------
 Tools-
-Covalent API
-Next.js/ReactJS
-Chart.js
-VS Code
+1. Covalent API
+2. Next.js/ReactJS
+3. Chart.js
+4. VS Code
 
 Programming Languages-
-JavaScript
-CSS
-HTML
+1. JavaScript
+2. CSS
+3. HTML
 
 Covalent API
 ------------
@@ -42,10 +42,10 @@ And, Covalent API's endpoints does this job perfectly by making data fetching th
 
 I have used the Covalent's Class B (XY = K) and Pricing endpoints such as,
 
-DEX Health & Ecosystem Data
-Pools & Tokens
-Token Transactions
-Historical Token Prices
+1. DEX Health & Ecosystem Data
+2. Pools & Tokens
+3. Token Transactions
+4. Historical Token Prices
 
 Next.js/ReactJS
 ---------------
